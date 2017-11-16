@@ -105,6 +105,11 @@ footer div{
     .navbar-logo{
         float: left;
     }
+    .navbar-link.navbar-nav > li > a{
+        line-height: 118px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 }
 @media screen and (max-width: 767px){
     .index_zw{

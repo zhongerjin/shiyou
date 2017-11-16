@@ -1,3 +1,37 @@
-.tab-content{
+/* .tab-content{
     position: relative;
+} */
+.content-footer{
+    text-align: right;
+    padding: 13px 0;
+}
+.content-footer .page-group span.arrow{
+    text-align: center;
+    line-height: 38px;
+    border: 2px solid #ebebeb;
+    color: #ebebeb;
+    width: 45px;
+    height: 42px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.content-footer .page-group span.arrow:hover{
+    background-color: #ff6000;
+    color: #fff;
+    border-color: transparent;
+}
+.content-footer .page-group span.count{
+    padding: 0 15px;
+    color: #ff6000;
+    display: inline-block;
+    font-size: 18px;
+    position: relative;
+    top: -2px;
+}
+@media (max-width:436px){
+    footer{
+        position: relative;
+    }
 }
