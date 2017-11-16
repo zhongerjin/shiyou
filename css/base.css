@@ -25,48 +25,26 @@ ul{
     float: right;
     margin-bottom: 0;
 }
-/* .nav-container{
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    border: none;
-    margin-bottom: 0;
-}
-.navbar-logo{
-    height: 118px;
-    display: flex;
-    align-items: center;
-}
-.pad15{
-    padding-left: 0;
-    padding-right: 0;
-}
-.navbar-link{
-    display: flex !important;
-    justify-content: flex-end;
-    margin-bottom: 0;
-    height: 118px;
-}
-.navbar-link li{
-    display: inline-block;
-    height: 100%;
-    width: 107px;
+footer{
+    background:#323232;
+    min-height:132px;
+    position: absolute;
+    bottom:0;
+    width:100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.navbar-link li a{
-    font-size: 16px;
-    color: #323232;
+footer div{
+    font-size:12px;
+    color:white;
+    font-family:"Microsoft Yahei";
+    text-align: center;
+    margin-left:10px;
+    margin-right:10px;
 }
-.navbar-link li a:hover, .navbar-link li a:active,
-.navbar-link li a:focus, .navbar-link li a:visited{
-    text-decoration: none;
+@media screen and (max-width:500px){
+    footer{
+        min-height:70px;
+    }
 }
-li.active{
-    background-color: #f48300;
-    color: #fff;
-}
-li.active a{
-    color: #fff;
-} */
