@@ -188,7 +188,7 @@ footer{
 @media screen and (max-width:991px){
     .img2_div > img{
         width: 100%;
-        height: auto;
+        height: auto; 
         max-width: 286px; 
         margin-top:-7px;
     }
