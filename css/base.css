@@ -8,6 +8,12 @@ body{
 ul{
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
+a:hover, a:focus, a:active, a:visited{
+    text-decoration: none;
+}
 .nav-container{
     background-color: #fff;
     border: none;
@@ -31,6 +37,10 @@ ul{
 .mar15{
     margin-left: 0 !important;
     margin-right: 0 !important;
+}
+.pad15{
+    padding-right: 0;
+    padding-left: 0;
 }
 .collapse-border{
     border-color: transparent !important;
@@ -59,6 +69,118 @@ ul{
     background-color: #f48300 !important;
     color: #fff;
 }
+.viewInfo .breadcrumb {
+    padding-left: 0px;
+    text-align: left;
+    border-bottom: 0px;
+    margin: 8px 0px;
+    background-color: initial;
+}
+.viewInfo .breadcrumb>li.first:before{
+    content: " ";
+}
+.viewInfo .breadcrumb>li+li:before{
+    content: ">";
+}
+.viewInfo .breadcrumb li a{
+    color: #251a17;
+    font-size: 13px;
+}
+ul.tab{
+    margin-bottom: 0;
+}
+ul.tab li{
+    color: #999999;
+    /* width: 108px; */
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    background-color: #fff;
+}
+ul.tab li.active{
+    color: #fff;
+    background-color: #f48300;
+}
+.tab-content .content{
+    background-color: #fff;
+}
+.content .content-box{
+    margin: 0 45px;
+}
+.content .content-header{
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 45px;
+    /* margin-top: 42px; */
+    padding-top: 45px;
+}
+.content .content-detail{
+    border-bottom: 1px solid #f4f4f4;
+}
+.content .content-detail li{
+    color: #999999;
+    padding: 22px 0;
+}
+.content .content-detail li div{
+    width: 716px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+}
+.content .content-detail li div a{
+    font-size: 16px;
+    color: #999999;
+}
+.content .content-detail li span{
+    text-align: right;
+    padding-right: 0;
+}
+.content .content-header span.header-title{
+    border-left: 9px solid #ff6000;
+    font-weight: bold;
+    font-size: 44px;
+    color: #251a17;
+    padding-left: 23px;
+}
+.content-footer{
+    text-align: right;
+    padding: 13px 0;
+}
+.content-footer .page-group span.arrow{
+    text-align: center;
+    line-height: 38px;
+    border: 2px solid #ebebeb;
+    color: #ebebeb;
+    width: 45px;
+    height: 42px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.content-footer .page-group span.arrow:hover{
+    background-color: #ff6000;
+    color: #fff;
+    border-color: transparent;
+}
+.content-footer .page-group span.count{
+    padding: 0 15px;
+    color: #ff6000;
+    display: inline-block;
+    font-size: 18px;
+    position: relative;
+    top: -2px;
+}
+.navbar-div{
+    height: 118px;
+    width: 100%;
+    position: relative;
+}
+.footers{
+    position: relative;
+    width: 100%;
+    height: 132px;
+}
 
 footer{
     background:#323232;
@@ -77,6 +199,44 @@ footer div{
     margin-right:10px;
     padding-top: 57.5px;
 }
+.jumbotron.body-content{
+    padding-top: 0;
+    background-color: transparent;
+}
+.jumbotron.body-content .container{
+    position: relative;
+    right: 97px;
+}
+@media screen and (max-width: 1380px) and (min-width:1200px){
+    .jumbotron.body-content .container{
+        width: 970px;
+    }
+    .content .content-detail li div{
+        width: 578px;
+    }
+}
+@media (max-width:1199px){
+    .jumbotron.body-content .container{
+        right: 0;
+    }
+    .content .content-detail li div{
+        width: 578px;
+    }
+}
+@media (max-width: 992px){
+    ul.tab li{
+        display: table-cell;
+        padding: 0 11px;
+    }
+    .content .content-detail li div {
+        width: 526px;
+    }
+}
+@media screen and (min-width: 992px){
+    .navbar-link.navbar-nav > li > a{
+        padding: 10px 21px;
+    }
+}
 @media screen and (min-width: 768px){
     .navbar-logo{
         float: left;
@@ -88,6 +248,9 @@ footer div{
     }
 }
 @media screen and (max-width: 767px){
+    .content .content-detail li div {
+        width: 396px;
+    }
     .navbar-link{
         height: auto;
         float: none;
@@ -99,6 +262,9 @@ footer div{
         height: auto;
         display: block;
         text-align: center;
+    }
+    .navbar-div{
+        height: 70px;
     }
     .navbar-logo {
         height: 70px;
@@ -116,5 +282,13 @@ footer div{
     }
     footer div {
         padding-top:26.5px;
+    }
+    .content .content-header span.header-title{
+        font-size:32px;
+    }
+}
+@media (max-width:650px){
+    .content .content-detail li div {
+        width: 241px;
     }
 }
