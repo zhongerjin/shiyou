@@ -185,7 +185,7 @@ ul.tab li.active{
 footer{
     background:#323232;
     min-height:132px;
-    position: absolute;
+    /* position: absolute; */
     bottom:0;
     width:100%;
     text-align: center;
@@ -290,5 +290,13 @@ footer div{
 @media (max-width:650px){
     .content .content-detail li div {
         width: 241px;
+    }
+    .index_zw{
+        height: 70px;
+    }
+}
+@media screen and (max-width: 357px){
+    footer div {
+        padding-top: 20px;
     }
 }
