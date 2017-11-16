@@ -52,6 +52,12 @@ body{
 .wlny_bj{
     text-align: center;
     background:-webkit-gradient(linear, 0 0, 0 bottom, from(#ff7e00), to(#f9ad00));
+    background: -webkit-linear-gradient(top, #ff7e00, #f9ad00);   
+    background: -moz-linear-gradient(top, #ff7e00, #f9ad00);   
+    background: -o-linear-gradient(top, #ff7e00, #f9ad00);
+    background: -ms-linear-gradient(top, #ff7e00, #f9ad00);   
+    background: linear-gradient(top, #ff7e00, #f9ad00);   
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 0, startColorstr = #ff7e00, endColorstr = #f9ad00);   
     padding-top:50px;
     padding-bottom: 50px;
 }
