@@ -60,7 +60,7 @@ ul{
 footer{
     background:#323232;
     min-height:132px;
-    position: absolute;
+    /* position: absolute; */
     bottom:0;
     width:100%;
     text-align: center;
@@ -74,7 +74,7 @@ footer div{
     margin-right:10px;
     padding-top: 57.5px;
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 767px){
     .navbar-logo{
         float: left;
     }
@@ -113,5 +113,8 @@ footer div{
     }
     footer div {
         padding-top:26.5px;
+    }
+    .index_zw{
+        height: 70px;
     }
 }
