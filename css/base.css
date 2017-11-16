@@ -62,7 +62,7 @@ ul{
 
 footer{
     background:#323232;
-    min-height:132px;
+    height: 132px;
     /* position: absolute; */
     bottom:0;
     width:100%;
@@ -112,7 +112,7 @@ footer div{
         top: calc(100% - 60px);
     }
     footer{
-        min-height:70px;
+        height:70px;
     }
     footer div {
         padding-top: 26.5px;
@@ -121,7 +121,8 @@ footer div{
         height: 70px;
     }
 }
-@media screen and (max-width: 357px){
-footer div {
-    padding-top: 20px;
+@media screen and (max-width: 387px){
+    footer div {
+        padding-top: 20px;
+    }
 }

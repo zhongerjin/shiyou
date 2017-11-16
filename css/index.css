@@ -130,7 +130,7 @@ body{
 }
 footer{
     background: #323232;
-    min-height: 132px;
+    height: 132px;
     width: 100%;
     text-align: center;
 }

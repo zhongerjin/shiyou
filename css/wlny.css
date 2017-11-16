@@ -1,0 +1,94 @@
+body{
+    background-color:white !important;
+}
+.index_zw{
+    height:118px;
+    width:100%;
+}
+.wlny_banner{
+    width:100%;
+    max-height:562px;
+}
+.banner_div{
+    position: relative;
+}
+.banner_div img{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.banner_div > div{
+    color:white;
+    font-size:50px;
+    margin:auto;
+    position: relative;
+    z-index: 100;
+    text-align:center;
+}
+.wlny_jjfa{
+    /* position: relative; */
+    /* top:30px; */
+    margin-top: 30px;
+    text-align:center;
+    margin-bottom:50px;
+}
+.wlny_jjfa h2{
+    color:#4d6281;
+    font-weight:bold;
+}
+.wlny_jjfa > p{
+    font-size:18px;
+    color:#4d6281;
+    padding-top: 15px;
+}
+.wlny_jjfa > div > img{
+    height:auto;
+    width:100%;
+}
+.wlny_bj > div > img{
+    height:auto;
+    width:100%;
+}
+.wlny_bj{
+    text-align: center;
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(#ff7e00), to(#f9ad00));
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+.hz_img_div > div{
+    width: 143px;
+    height:80px;
+    border:1px #e0e0e0 solid;
+    margin:0;
+    padding: 0;
+    display: inline-block;
+    margin-left: -1px;
+    margin-top: -1px;
+    line-height: 80px;
+}
+.wlny_body {
+    padding: 0;
+}
+.hz_img_div{
+    margin-bottom:50px;
+}
+.title_dow_span{
+    /* position: relative; */
+    /* top:20px; */
+    margin-top: 20px;
+    font-size:16px;
+    margin-bottom: 30px;
+}
+.hz_div{
+    text-align:center;
+    color:#656565;
+    margin-top:50px;
+}
+footer{
+    /* margin-top:60px; */
+}
+@media screen and (max-width:767px){
+    .banner_div > div{
+        font-size:27px;
+    }
+}
