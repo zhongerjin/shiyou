@@ -32,6 +32,7 @@ body{
     text-align:center;
     color:#656565;
     margin-top:70px;
+    margin-bottom: 30px;
 }
 .introduction_div{
     text-align:center;
@@ -77,7 +78,7 @@ body{
 .div_card div{
     font-size:15px;
     color:#a4a1a1;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .div_for_new_img{
     /* background:white; */

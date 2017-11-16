@@ -115,9 +115,13 @@ footer div{
         min-height:70px;
     }
     footer div {
-        padding-top:26.5px;
+        padding-top: 26.5px;
     }
     .index_zw{
         height: 70px;
     }
+}
+@media screen and (max-width: 357px){
+footer div {
+    padding-top: 20px;
 }
