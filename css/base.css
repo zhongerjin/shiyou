@@ -17,56 +17,66 @@ ul{
     height: 118px;
     line-height: 118px;
 }
-.pad15{
-    padding-left: 0;
-    padding-right: 0;
+.navbar-logo button{
+    margin-right: 0px;
+    top: calc((100% / 2)/2);
+    /* border-color: transparent !important; */
+}
+.navbar-logo button span.icon-bar{
+    background-color: #000 !important;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+    background-color: transparent;
+}
+.mar15{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 .navbar-link{
     float: right;
     margin-bottom: 0;
-}
-/* .nav-container{
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    border: none;
-    margin-bottom: 0;
-}
-.navbar-logo{
-    height: 118px;
-    display: flex;
-    align-items: center;
-}
-.pad15{
-    padding-left: 0;
-    padding-right: 0;
-}
-.navbar-link{
-    display: flex !important;
-    justify-content: flex-end;
-    margin-bottom: 0;
     height: 118px;
 }
-.navbar-link li{
-    display: inline-block;
+.navbar-link.navbar-nav > li{
     height: 100%;
-    width: 107px;
+}
+.navbar-link.navbar-nav > li > a{
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-}
-.navbar-link li a{
     font-size: 16px;
     color: #323232;
 }
-.navbar-link li a:hover, .navbar-link li a:active,
-.navbar-link li a:focus, .navbar-link li a:visited{
+.navbar-link.navbar-nav li a:hover, .navbar-link.navbar-nav li a:active,
+.navbar-link.navbar-nav li a:focus, .navbar-link.navbar-nav li a:visited{
+    color: #323232;
     text-decoration: none;
 }
-li.active{
-    background-color: #f48300;
+.navbar-link.navbar-nav li.active a{
+    background-color: #f48300 !important;
     color: #fff;
 }
-li.active a{
-    color: #fff;
-} */
+@media screen and (min-width: 768px){
+    .navbar-logo{
+        float: left;
+    }
+    .navbar-link.navbar-nav > li > a{
+        line-height: 118px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+@media screen and (max-width: 768px){
+    .navbar-link{
+        height: auto;
+        float: none;
+    }
+    .navbar-link.navbar-nav > li{
+        height: auto;
+    }
+    .navbar-link.navbar-nav li a{
+        height: auto;
+        display: block;
+        text-align: center;
+    }
+}
