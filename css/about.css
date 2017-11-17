@@ -2,8 +2,29 @@
     color: #656565;
     font-size: 16px;
     padding: 22px 0;
+    line-height: 2;
 }
-@media (max-width:500px){
+@media (max-height: 856px){
+    footer{
+        position: relative;
+    }
+}
+@media (max-width:767px) and (min-width:720px){
+    footer{
+        position: absolute;
+    }
+}
+@media (max-width: 650px) and (max-height: 800px){
+    footer{
+        position: relative;
+    }
+}
+@media (max-width: 650px) and (min-width:880px){
+    footer{
+        position: relative;
+    }
+}
+@media (max-width: 540px){
     footer{
         position: relative;
     }

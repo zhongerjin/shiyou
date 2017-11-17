@@ -30,7 +30,17 @@
     position: relative;
     top: -2px;
 }
-@media (max-width:436px){
+@media (max-height: 816px){
+    footer{
+        position: relative;
+    }
+}
+@media (max-height: 900px) and (min-width:768px) and (max-width:991px){
+    footer{
+        position: relative;
+    }
+}
+@media (max-width: 768px) and (max-height: 830px){
     footer{
         position: relative;
     }
