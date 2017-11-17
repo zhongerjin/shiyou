@@ -147,6 +147,9 @@ footer div{
     footer div {
         padding-top:26.5px;
     }
+    .footers{
+        height: 70px;
+    }
 }
 @media (max-width:650px){
     .index_zw{

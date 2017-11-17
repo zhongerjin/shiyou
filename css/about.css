@@ -19,6 +19,14 @@
         position: relative;
     }
 }
+@media (max-width: 664px){
+    .footers{
+        height: 70px;
+    }
+    footer{
+        position: relative;
+    }
+}
 @media (max-width: 650px) and (min-width:880px){
     footer{
         position: relative;

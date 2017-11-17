@@ -23,7 +23,7 @@
 .content .content-footer .div-group :nth-last-child(1){
     margin-left: 25px;
 }
-@media (max-height: 850px){
+@media (max-height: 850px) and (min-width: 1200px){
     footer{
         position: relative;
     }
@@ -38,7 +38,7 @@
         position: relative;
     }
 }
-@media (max-width: 540px){
+@media (max-width: 540px) and (max-height: 930px){
     footer{
         position: relative;
     }

@@ -63,6 +63,7 @@ ul.tab li.active{
 .content .content-detail li span{
     text-align: right;
     padding-right: 0;
+    padding-left: 0;
 }
 .content .content-header span.header-title{
     border-left: 9px solid #ff6000;
@@ -83,12 +84,18 @@ ul.tab li.active{
 footer{
     position: absolute;
 }
+.footers{
+    height: 132px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
 @media screen and (max-width: 1380px) and (min-width:1200px){
     .jumbotron.body-content .container{
         width: 970px;
     }
     .content .content-detail li div{
-        width: 578px;
+        width: 593px;
     }
 }
 @media (max-width:1199px){
@@ -96,7 +103,7 @@ footer{
         right: 0;
     }
     .content .content-detail li div{
-        width: 578px;
+        width: 593px;
     }
 }
 @media (max-width: 991px){
@@ -105,12 +112,12 @@ footer{
         padding: 0 11px;
     }
     .content .content-detail li div {
-        width: 526px;
+        width: 541px;
     }
 }
 @media screen and (max-width: 767px){
     .content .content-detail li div {
-        width: 396px;
+        width: 411px;
     }
     .content .content-header span.header-title{
         font-size:32px;
@@ -118,6 +125,16 @@ footer{
 }
 @media (max-width:650px){
     .content .content-detail li div {
-        width: 241px;
+        width: 256px;
+    }
+}
+@media (max-width: 415px){
+    .content .content-detail li div {
+        width: 204px;
+    }
+}
+@media (max-width: 375px){
+    .content .content-detail li div {
+        width: 225px;
     }
 }
